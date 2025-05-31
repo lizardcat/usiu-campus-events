@@ -3,9 +3,10 @@
 <?php include 'templates/auth_modal.php'; ?>
 
 <main class="container mt-4">
-    <h1 class="mb-4">Upcoming Events</h1>
-    <div id="login-status"></div>
-    <div id="event-list"></div>
+    <h1 class="mb-4">All Events</h1>
+    <div id="event-list" class="row g-4">
+        <!-- Events will be loaded here via JS -->
+    </div>
 </main>
 
 <?php include 'templates/footer.php'; ?>
